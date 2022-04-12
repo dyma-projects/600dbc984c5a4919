@@ -1,0 +1,5 @@
+<hr />
+
+<ul *ngIf="texts">
+  <li *ngFor="let text of texts; trackBy: trackByIndex">{{ text }}</li>
+</ul>
